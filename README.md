@@ -2,9 +2,7 @@
 
 ** These commands are only valid for linux terminal
 
------------------------------------------------
-############# Compiling files #################
------------------------------------------------
+# Compiling files
 
 1 . open terminal and give root privilages
 ->  sudo su
@@ -27,9 +25,7 @@
 7 . run following code to initialize the connection
 ->  orbd -ORBInitialPort 1050 -ORBInitialHost localhost
 
----------------------------------------------------
-############# Running Server Code #################
----------------------------------------------------
+# Running Server Code
 
 1 . open new terminal and give root privilages
 ->  sudo su
@@ -39,9 +35,7 @@
 3 . type following command to run the client code
 ->  java BankServer -ORBInitialPort 1050 -ORBInitialHost localhost
 
----------------------------------------------------
-############# Running Client Code #################
----------------------------------------------------
+# Running Client Code
 
 1 . open new terminal and give root privilages
 ->  sudo su
